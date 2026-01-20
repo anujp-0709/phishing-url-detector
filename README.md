@@ -38,31 +38,38 @@ The project includes a **Streamlit web demo** and an evaluation report with clas
 ```bash
 python -m venv .venv
 2) Activate environment
-
 Windows
 
+bash
+Copy code
 .venv\Scripts\activate
-
-
 Mac/Linux
 
+bash
+Copy code
 source .venv/bin/activate
-
 3) Install dependencies
+bash
+Copy code
 pip install -r requirements.txt
-
 4) Train the model
+bash
+Copy code
 python -m src.train
-
 5) Run evaluation
+bash
+Copy code
 python -m src.evaluate
-
 6) Start the Streamlit app
+bash
+Copy code
 streamlit run app/streamlit_app.py
-
 📌 Project Structure
+text
+Copy code
 app/        # Streamlit web app
 src/        # feature engineering + training + evaluation
 data/raw/   # dataset (urls.csv)
 models/     # saved model artifacts
 reports/    # evaluation outputs
+
