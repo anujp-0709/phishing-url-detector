@@ -1,4 +1,4 @@
-```md
+
 # 🔒 Phishing URL Detector (ML + Streamlit)
 
 A machine learning project that predicts whether a URL is **phishing** or **legitimate** using engineered URL-based features such as length, subdomains, suspicious keywords, digits, and special characters.
@@ -32,40 +32,40 @@ The project includes a **Streamlit web demo** and an evaluation report with clas
 - Joblib
 
 ---
-```md
+
 ## ▶️ Run Locally
 
 ### 1) Create virtual environment
 ```bash
 python -m venv .venv
-2) Activate environment
+```
+###2) Activate environment
 Windows
-
-bash
-Copy code
+```
 .venv\Scripts\activate
+```
 Mac/Linux
-
-bash
-Copy code
+```
 source .venv/bin/activate
+```
 3) Install dependencies
-bash
-Copy code
+```
 pip install -r requirements.txt
+```
 4) Train the model
-bash
-Copy code
+```
 python -m src.train
+```
 5) Run evaluation
-bash
-Copy code
+```
 python -m src.evaluate
+```
 6) Start the Streamlit app
-bash
-Copy code
+```
 streamlit run app/streamlit_app.py
+```
 📌 Project Structure
+```
 text
 Copy code
 app/        # Streamlit web app
