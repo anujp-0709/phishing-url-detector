@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Optional: keep processed and local outputs out of git
+data/processed/
