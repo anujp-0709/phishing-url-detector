@@ -1,3 +1,4 @@
+```md
 # 🔒 Phishing URL Detector (ML + Streamlit)
 
 A machine learning project that predicts whether a URL is **phishing** or **legitimate** using engineered URL-based features such as length, subdomains, suspicious keywords, digits, and special characters.
@@ -31,7 +32,7 @@ The project includes a **Streamlit web demo** and an evaluation report with clas
 - Joblib
 
 ---
-
+```md
 ## ▶️ Run Locally
 
 ### 1) Create virtual environment
@@ -72,4 +73,5 @@ src/        # feature engineering + training + evaluation
 data/raw/   # dataset (urls.csv)
 models/     # saved model artifacts
 reports/    # evaluation outputs
+
 
