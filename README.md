@@ -35,11 +35,11 @@ The project includes a **Streamlit web demo** and an evaluation report with clas
 
 ## ▶️ Run Locally
 
-### 1) Create virtual environment
-```bash
+1) Create virtual environment
+```
 python -m venv .venv
 ```
-###2) Activate environment
+2) Activate environment
 Windows
 ```
 .venv\Scripts\activate
@@ -73,5 +73,6 @@ src/        # feature engineering + training + evaluation
 data/raw/   # dataset (urls.csv)
 models/     # saved model artifacts
 reports/    # evaluation outputs
+
 
 
